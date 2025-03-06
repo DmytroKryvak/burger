@@ -110,7 +110,7 @@ a {
   margin-top: -100px;
   padding: 240px 0;
 
-  background-image: url("../images/welcome-bg.jpg");
+  background-image: url("./images/welcome-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -301,19 +301,19 @@ a {
 }
 
 .card--queen {
-  background-image: url("../images/product-1.jpg");
+  background-image: url("./images/product-1.jpg");
 }
 
 .card--hut {
-  background-image: url("../images/product-2.jpg");
+  background-image: url("./images/product-2.jpg");
 }
 
 .card--king {
-  background-image: url("../images/product-3.jpg");
+  background-image: url("./images/product-3.jpg");
 }
 
 .card--papa {
-  background-image: url("../images/product-4.jpg");
+  background-image: url("./images/product-4.jpg");
 }
 
 /* Feedback */
@@ -340,7 +340,7 @@ a {
 }
 
 .feedback__text::before {
-  content: url("../images/icons/quote.svg");
+  content: url("./images/icons/quote.svg");
 }
 
 .feedback__desc {
@@ -450,11 +450,11 @@ a {
 }
 
 .footer__link-mail::before {
-  content: url("../images/icons/mail.svg");
+  content: url("./images/icons/mail.svg");
 }
 
 .footer__link-web::before {
-  content: url("../images/icons/global.svg");
+  content: url("./images/icons/global.svg");
 }
 
 /* media request */
@@ -546,11 +546,7 @@ a {
 
   .welcome .container {
     position: relative;
-<<<<<<< HEAD
     z-index: 10;
-=======
-    z-index: 9;
->>>>>>> 890f224 (v1.2 add burger menu)
   }
 
   .welcome::before {
@@ -731,68 +727,3 @@ a {
     top: 0;
   }
 }
-<<<<<<< HEAD
-=======
-
-.burger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-  z-index: 100;
-}
-.burger span {
-  width: 30px;
-  height: 4px;
-  background: #fff;
-  transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-  .burger {
-    display: flex;
-    position: relative;
-    z-index: 100;
-  }
-  .header__nav {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 100;
-  }
-  .header__nav.active {
-    left: 0;
-  }
-  .header__list {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 0;
-    z-index: 100;
-  }
-  .close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 100;
-  }
-  body.no-scroll {
-    overflow: hidden;
-  }
-  .burger.hidden {
-    display: none;
-  }
-}
->>>>>>> 890f224 (v1.2 add burger menu)
