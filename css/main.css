@@ -546,11 +546,7 @@ a {
 
   .welcome .container {
     position: relative;
-<<<<<<< HEAD
-    z-index: 10;
-=======
     z-index: 9;
->>>>>>> 890f224 (v1.2 add burger menu)
   }
 
   .welcome::before {
@@ -731,9 +727,6 @@ a {
     top: 0;
   }
 }
-<<<<<<< HEAD
-=======
-
 .burger {
   display: none;
   flex-direction: column;
@@ -795,4 +788,3 @@ a {
     display: none;
   }
 }
->>>>>>> 890f224 (v1.2 add burger menu)
